@@ -15,6 +15,6 @@ A concise and professional online CV that highlights my skills, experience, educ
 ## 🚀 How to Use
 To run this CV locally:
 ```bash
-git clone https://github.com/your-username/virtual-cv.git
+git clone https://github.com/tons023/Virtual-CV.git
 cd virtual-cv
 open index.html
