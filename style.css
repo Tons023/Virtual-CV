@@ -1,0 +1,173 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #faf4e4;
+    color: #333;
+    line-height: 1.6;
+}
+/*=============TOP-TABS===========*/
+header {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav {
+    background: #d3a121;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*=============MAIN-HOME===========*/
+#home {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        justify-content: left;
+        padding: 2rem;
+        gap: 2rem;
+        }
+
+#home img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+.about-text {
+        max-width: 600px;
+        }
+h2 {
+    color: black;
+    padding-left: 100px;
+}
+h3 {
+    color: black;
+    padding-left: 0px
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+ @media screen and (max-width: 768px) {
+            #home {
+                flex-direction: column;
+                text-align: left;
+            }
+
+            .about-text {
+                padding: 0 1rem;
+            }
+        }
+/*=============TABS-BOTTOM===========*/
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+/*=============FORM===========*/
+.contact-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem 2rem 2rem 2.5rem; /* more left padding */
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-container h3 {
+            color: black;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info p {
+            margin: 0.5rem 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        form input, form textarea {
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            width: 100%;
+        }
+
+        form button {
+            background-color: #d3a121;
+            color: white;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: black;
+        }
+
+/*=============RESUME IMAGES===========*/
+
+ #resume img {
+      width: 80%;
+      padding-top: 40px;
+      padding-bottom: 120px;
+      max-width: 800px;
+      padding-left: 100px;
+    }
+
+/*=============PROJECTS PAGE===========*/
+ .project {
+  background-color: #d0c09e;
+  border: 2px solid black;             /* Black outline */
+  border-left: 5px solid black;        /* Thick black left border for accent */
+  margin: 2rem 10px;                   /* Top/Bottom = 2rem, Left/Right = 10px */
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.project:last-of-type {
+  margin-bottom: 8rem; /* creates breathing space above footer */
+}
+    .project h3 {
+      margin-top: 0;
+      color: black;
+    }
+
+    .project p {
+      margin-bottom: 0.5rem;
+    }
+
+    .project a {
+      color: #1565c0;
+      text-decoration: none;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
